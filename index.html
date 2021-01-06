@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-img">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/858/858151.svg" width="200px" height="200px"
+                alt="logo">
+        </div>
+        <div class="logo-text">
+            <h1>Kalkulator walut</h1>
+            <p>Podaj wartość i wybierz walutę a kalkulator przeliczy jej równowartość na podstawie akutalnych kursów!
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <input class="input-enter" id="start-value" placeholder="Podaj kwotę w obcej walucie">
+        <select class="select-enter" id="check-currency">
+            <option>EUR</option>
+            <option>USD</option>
+            <option>CHF</option>
+        </select>
+
+        <button class="btn-calc" id="calc-btn">Przelicz</button>
+
+        <span class="calc-resoult" id="calculated-money"></span>
+
+    </main>
+    <footer>
+        <span class="calc-resoult" id="calculated-money"></span>
+
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

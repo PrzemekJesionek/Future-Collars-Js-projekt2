@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+    width: 720px;
+    border: 5px black solid;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: rgb(25, 56, 56);
+    color: white;
+}
+
+.logo-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-enter {
+    margin: 5px;
+    width: 200px
+}
+
+.select-enter {
+    margin: 5px;
+}
+
+.btn-calc {
+    background-color: rgb(37, 89, 102);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.calc-resoult {
+    font-size: 35px;
+    text-decoration: underline;
+}
