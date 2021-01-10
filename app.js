@@ -12,7 +12,6 @@ calcBtn.addEventListener('click', function () {
     if (!isNaN(moneyToChangeValue)) {
         console.log('Podałeś liczbę');
     } else {
-
         alert('Nie możesz podać tekstu! Upewnij się, że nie wpisałeś kwoty z przecinkiem (separatorem dziesiętnym jest kropka)!');
         return
 
@@ -27,7 +26,7 @@ calcBtn.addEventListener('click', function () {
         let calculatedMoneyUpText = document.getElementById('calculated-money')
 
         if (moneyToChangeValue < 0) {
-            calculatedMoneyUpText.innerText = ' Podaj liczbę większą od zera!'
+            calculatedMoneyUpText.innerText = 'Podaj liczbę większą od zera!'
         } else {
             calculatedMoneyUpText.innerText = `To: ${calculatedMoney.toFixed(2)} PLN`
         }
